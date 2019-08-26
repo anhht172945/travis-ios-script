@@ -6,6 +6,8 @@ Reusable iOS script for Travis CI with Testflight, Crittercism and HockeyApp sup
 ## Prerequisites
 1. Travis CLI: `sudo gem install travis`
 2. xctool: `brew install xctool`
+3. Mako: `pip install Mako` # need install pip before
+4. version python: 2
 
 ## Getting started
 1. Submodule this repository: `git submodule add git@github.com:oursky/travis-ios-script.git`
@@ -19,6 +21,7 @@ Reusable iOS script for Travis CI with Testflight, Crittercism and HockeyApp sup
 3. Download your app's Provisioning Profile from Apple Developer Member Center.
 
 4. Execute the script, follow the instructions.
+   `python script`
 
 5. Push. Sit back. Enjoy a :coffee:.
 
